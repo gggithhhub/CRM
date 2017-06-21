@@ -1,0 +1,22 @@
+//时间戳转换
+function transdate(str, style) {
+    var str = str.split("-");
+    if (str[1][0] == "0") {
+        str[1] = str[1][1];
+    }
+    if (str[2][0] == "0") {
+        str[2] = str[2][1];
+    }
+    str = str.join("/");
+    return Date.parse(new Date(str)) / 1000;
+}
+
+//flash 自动播放
+<object type="application/x-shockwave-flash" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="300" height="250" style="position: absolute;bottom: -184px;display: none;"  class="showObj">
+	<param name="movie" value='{{ a[i].pic }}'/>
+	<param name="AutoStart" value="1" />
+	<embed src='{{ a[i].pic }}' width="300" height="250" alt="" />
+</object>
+
+//超出省略号
+overflow: hidden;text-overflow: ellipsis;white-space: nowrap;

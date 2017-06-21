@@ -1,0 +1,128 @@
+@charset "utf-8";
+/*样式重置*/
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select{
+	margin: 0;
+	padding: 0;
+}
+em{font-style: normal;}
+li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+img{
+	border: none;
+	vertical-align: top;
+}
+table{
+	border-collapse: collapse;
+}
+input,textarea{
+	outline: none;
+}
+textarea{
+	resize: none;
+	overflow: auto;
+}
+body{
+	font-size: 12px; font-family: "微软雅黑";
+	background: url(/src/img/big-bg.jpg)no-repeat;
+	background-size:100%;
+	position: relative;
+}
+.login_box{
+	width: 340px;
+	height: 470px;
+	background: -moz-linear-gradient( top,#e4ecef,#faf9f5); 
+	background: -o-linear-gradient(top,#e4ecef,#faf9f5);
+	background: -webkit-linear-gradient(top,#e4ecef,#faf9f5);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#e4ecef, endColorstr=#faf9f5);/*IE<9>*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient (GradientType=0, startColorstr=#e4ecef, endColorstr=#faf9f5)";/*IE8+*/ 
+	background: linear-gradient(top,#e4ecef,#faf9f5);
+	border-radius: 5px;
+	box-shadow: 0 0px 15px #494848;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-top: 170px;
+	margin-left: -170px;
+	text-align: center;
+}
+.logo{
+	display: block;
+	width: 80px;
+	height: 80px;
+	background: url(/src/img/logo_login.png)no-repeat;
+	margin: 40px auto 40px;
+}
+#first .txt{
+	display: inline-block;
+	font-size: 20px;
+	color: #444444;
+	padding-bottom: 25px;
+}
+.login_box input{
+	width: 213px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #e8e8e8;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #4c4c4d;
+	margin-bottom: 10px;
+}
+.login_box #first a{
+	display:inline-block;
+	width: 230px;
+	height: 42px;
+	background: #26adf0;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+	font-size: 12px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.login_box #first  i{
+	font-style: normal;
+	color: #f10808;
+}
+.login_box #second  i{
+	display: inline-block;
+	width: 100%;
+	font-style: normal;
+	color: #f10808;
+}
+#second select{
+	width: 228px;
+	height: 40px;
+	background: #fff;
+	border: 1px solid #e8e8e8;
+	padding-left: 15px;
+	font-size: 12px;
+	color: #4c4c4d;
+	margin-bottom: 10px;
+}
+#second a{
+	margin-top: 10px;
+	display: inline-block;
+	height: 42px;
+	width: 110px;
+	text-align: center;
+	line-height: 42px;
+	color: white;
+	font-size: 12px;
+	border-radius: 20px;
+	background: #26adf0;
+}
+#second .quxiao{
+	color: #777777;
+	background: #FFFFFF;
+	margin-right: 10px;
+}
+#thirth{
+	font-size: 18px;
+	line-height: 30px;
+	color: #666666;
+}
